@@ -1,3 +1,4 @@
+alert("Instagram++ loaded!");
 webpackJsonp([17], {
     1183: function(e, t, o) {
         "use strict";
@@ -815,8 +816,7 @@ webpackJsonp([17], {
                     var e = 100 * o.$StoryImage1 / Ve;
                     e = Math.min(e, 100),
                     o.props.onUpdatePlayPercentage(e),
-                    100 === e && (o.$StoryImage6(),
-                    o.props.onNext("automatic_forward"))
+                    100 === e && (o.$StoryImage6())
                 }, 1e3 * Ae))
             }
             ,
@@ -2148,7 +2148,7 @@ webpackJsonp([17], {
             this.state = {
                 isHidden: null != document.hidden && document.hidden,
                 isModalActive: !1,
-                isPaused: !0,
+                isPaused: !1,
                 playPercentage: null,
                 preplayPercentage: null
             },
@@ -2183,7 +2183,7 @@ webpackJsonp([17], {
             ,
             this.$OwnerStories7 = function() {
                 o.setState({
-                    isPaused: !0
+                    isPaused: !1
                 })
             }
             ,
