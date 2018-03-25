@@ -4,8 +4,9 @@
 // @version      1.1
 // @description  Instagram++ Help Tools
 // @author       Maxhyt
+// @homepage     https://github.com/Maxhyt/hosting
 // @match        https://www.instagram.com/
-// @start-up     document-end
+// @run-at       document-end
 // @downloadURL  https://rawgit.com/Maxhyt/hosting/master/InstagramPlusPlus.js
 // @updateURL    https://rawgit.com/Maxhyt/hosting/master/InstagramPlusPlus.js
 // @grant        none
