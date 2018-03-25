@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Instagram++
 // @namespace    maxhyt.instagrampp
-// @version      1.2
+// @version      1.2.1
 // @description  Instagram++ Help Tools
 // @author       Maxhyt
 // @homepage     https://github.com/Maxhyt/hosting
@@ -40,7 +40,7 @@
                     menu.innerHTML += "<li class=\"_o2wxh\"><a href=\"" + vidLink.getElementsByTagName("source")[0].src + "\" download><button class=\"_h74gn\">Download</button></a></li>";
                 else
                     menu.innerHTML += "<li class=\"_o2wxh\"><button class=\"_h74gn\">Download</button></li>";
-                menu.innerHTML += "<li class=\"_o2wxh\"><a href=\"abp:subscribe?location=https://raw.githubusercontent.com/Maxhyt/hosting/master/IGScriptRemover.txt&title=Instagram++\"><button class=\"_h74gn\">Subscribe on first use</button></a></li>";
+                menu.innerHTML += "<li class=\"_o2wxh\"><a target=\"_blank\" href=\"abp:subscribe?location=https://raw.githubusercontent.com/Maxhyt/hosting/master/IGScriptRemover.txt&amp;title=IGScriptRm\"><button class=\"_h74gn\">Subscribe on first use</button></a></li>";
             }
             dlButton();
         }, 500);
