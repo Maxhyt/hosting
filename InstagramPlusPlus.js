@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Instagram++
 // @namespace    maxhyt.instagrampp
-// @version      1.0
+// @version      1.1
 // @description  Instagram++ Help Tools
 // @author       Maxhyt
 // @match        https://www.instagram.com/
