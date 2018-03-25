@@ -6,6 +6,8 @@
 // @author       Maxhyt
 // @match        https://www.instagram.com/
 // @start-up     document-end
+// @downloadURL  https://rawgit.com/Maxhyt/hosting/master/InstagramPlusPlus.js
+// @updateURL    https://rawgit.com/Maxhyt/hosting/master/InstagramPlusPlus.js
 // @grant        none
 // ==/UserScript==
 
@@ -37,6 +39,7 @@
                     menu.innerHTML += "<li class=\"_o2wxh\"><a href=\"" + vidLink.getElementsByTagName("source")[0].src + "\" download><button class=\"_h74gn\">Download</button></a></li>";
                 else
                     menu.innerHTML += "<li class=\"_o2wxh\"><button class=\"_h74gn\">Download</button></li>";
+                menu.innerHTML += "<li class=\"_o2wxh\"><a href=\"abp:subscribe?location=https://raw.githubusercontent.com/Maxhyt/hosting/master/IGScriptRemover.txt&title=Instagram++\"><button class=\"_h74gn\">Subscribe on first use</button></a></li>";
             }
             dlButton();
         }, 500);
