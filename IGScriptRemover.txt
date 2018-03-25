@@ -1,0 +1,6 @@
+[Adblock Plus 2.0]
+! Version: 20180325
+! Title: Instagram Stories Script Remove
+! Expires: 7 days (update frequency)
+! Author: Maxhyt
+/static/bundles/base/DesktopStoriesPage.js/*
